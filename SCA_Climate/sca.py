@@ -17,7 +17,7 @@ st.set_page_config(
   #num2 = st.number_input("Enter your height")
   #total = num1+num2
  # if st.button("total"):
-    st.write("The total is", total)
+    #st.write("The total is", total)
   
   
 if __name__ == "__main__":
