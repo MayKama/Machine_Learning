@@ -2,3 +2,4 @@ Streamlit
 Pandas
 Numpy
 Pickle
+Joblib
