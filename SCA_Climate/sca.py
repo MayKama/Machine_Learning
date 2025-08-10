@@ -7,5 +7,6 @@ def main():
   st.title("SCA Climate")
 
 if __name__ == "__main__":
-main()
+  
+  main()
 
