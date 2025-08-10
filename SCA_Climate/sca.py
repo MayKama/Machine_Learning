@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import joblib
-# Set page config
 
-model = joblib.load(region.pkl)
 st.title("SCA Climate Crises App")
 
 #def main(): 
