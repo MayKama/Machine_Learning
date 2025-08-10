@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+import pickle
+import joblib
 
 def main(): 
-  st.title("SCA Climate")
+  st.title("SCA Climate App")
   num1 = st.number_input("Kindly enter your age")
   num2 = st.number_input("Enter your height")
   total = num1+num2
