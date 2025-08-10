@@ -20,6 +20,6 @@ st.set_page_config(
     #st.write("The total is", total)
   
   
-if __name__ == "__main__":
-  main()
+#if __name__ == "__main__":
+ # main()
 
