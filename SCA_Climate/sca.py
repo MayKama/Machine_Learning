@@ -7,7 +7,8 @@ def main():
   st.title("SCA Climate")
   num1 = st.number_input("Kindly enter your age")
   num2 = st.number_input("Enter your height")
-  st.write(num1, num2)
+  total = num1+num2
+  st.write(total)
   
   
 if __name__ == "__main__":
