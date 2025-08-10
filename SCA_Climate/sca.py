@@ -4,12 +4,9 @@ import numpy as np
 import pickle
 import joblib
 # Set page config
-st.set_page_config(
-    page_title="SCA Climate Prediction App",
-    page_icon="🔖",
-    layout="centered"
-)
 
+model = joblib.load(region.pkl)
+st.title("SCA Climate Crises App")
 
 #def main(): 
  # st.title("SCA Climate App")
