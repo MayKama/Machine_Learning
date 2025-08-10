@@ -5,8 +5,8 @@ import numpy as np
 
 def main(): 
   st.title("SCA Climate")
-  num1 = st.input_number("Kindly enter your age")
-  num2 = st.input_number("Enter your height")
+  num1 = st.number_input("Kindly enter your age")
+  num2 = st.number_input("Enter your height")
   st.write(num1, num2)
   
   
